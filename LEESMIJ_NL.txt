@@ -1,0 +1,11 @@
+LINKY — iPhone-webapp prototype
+
+Dit is een gratis te hosten webapp (PWA), geen native iOS-app en geen officiële Linky-client.
+
+Publiceren vanaf alleen een iPhone:
+1. Upload de volledige inhoud van deze map naar een statische hostingdienst die HTTPS ondersteunt (bijvoorbeeld Cloudflare Pages Direct Upload of Netlify).
+2. Open de gepubliceerde HTTPS-link in Safari op de iPhone.
+3. Tik op Deel > Zet op beginscherm > Voeg toe.
+4. Open Linky via het nieuwe beginscherm-icoon.
+
+De prototype bevat lokale schermen voor Ontdek, Chats en Profiel. Chatberichten blijven alleen in het huidige geopende schermgeheugen; er is geen server, account, AI-chat of synchronisatie.
