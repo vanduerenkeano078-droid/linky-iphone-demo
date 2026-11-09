@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#100d18"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="Linky">
+<link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icon-180.png"><link rel="stylesheet" href="style.css">
+<title>Linky</title>
+</head>
+<body>
+<div class="app">
+<header><img src="assets/logo.webp" alt="" onerror="this.style.display='none'"><strong>Linky</strong><button class="search" aria-label="Zoeken">⌕</button></header>
+<main id="main"></main>
+<nav><button data-tab="discover" class="active"><span>✧</span>Ontdek</button><button data-tab="chats"><span>▢</span>Chats</button><button data-tab="profile"><span>◉</span>Profiel</button></nav>
+</div>
+<dialog id="chat"><section class="chathead"><button id="back">‹</button><b id="chatname">Alex</b></section><div class="demo">DEMO — niet verbonden met de officiële Linky-dienst</div><div id="messages" class="messages"></div><form id="sendform"><input id="message" placeholder="Typ een bericht…" autocomplete="off"><button>➤</button></form></dialog>
+<script src="app.js"></script>
+</body></html>
